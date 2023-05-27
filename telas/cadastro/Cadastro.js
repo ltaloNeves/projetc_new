@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function Cadastro() {
+export default function Cadastro(navigation) {
   const [isLeigoActive, setIsLeigoActive] = useState(true);
   const [isProfissionalActive, setIsProfissionalActive] = useState(false);
 
@@ -22,6 +22,22 @@ export default function Cadastro() {
     setIsLeigoActive(false);
     setIsProfissionalActive(true);
   };
+
+  const enter = () => {
+    navigation.reset({
+      index: 0,
+      routes: [{name: "Home"}]
+    })
+  }
+  const conta = () => {
+    navagation.reset({
+      index: 0,
+      routes: [{name: "Login"}] 
+    })
+  }
+
+  
+  
 
   return (
     <View style={styles.container}>
@@ -77,14 +93,14 @@ export default function Cadastro() {
             secureTextEntry
             placeholder="confirmar senha"
           />
-          <TouchableOpacity style={styles.submitButton} onPress={() => {}}>
+          <TouchableOpacity style={styles.submitButton} onPress={() => enter ()}>
             <Text style={styles.submitButtonText}>CADASTRAR</Text>
           </TouchableOpacity>
         </View>
       )}
 
       <Text style={styles.loginText}>
-        Já possui uma conta? <Text onPress={() => {}}>Entrar</Text>
+        Já possui uma conta? <Text style ={styles.entrar} onPress={() => conta()}>Entrar</Text>
       </Text>
     </View>
   );
@@ -95,6 +111,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+  },
+  entrar: {
+    color: '#BA55D3', 
   },
   title: {
     fontSize: 40,
