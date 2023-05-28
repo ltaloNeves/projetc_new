@@ -5,17 +5,27 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 
+const HorizontalLine = () => {
+  return <View style={styles.line} />;
+};
+
 export default function Profile() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-     <View sytle = {styles.header}>
-      <View>
-        <Image  style = {{width: 40, height: 40 , borderRadius: 20, }} source={require('./assets/Projeto_Mobile/avatar/perfil.png')}/>
+    <View style={{justifyContent: 'center', alignItems: 'center' }}>
+      <View style={styles.imagensHead}>
+        <Image
+          style={{ width: 40, height: 40, borderRadius: 20 }}
+          source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+        />
+        <Image
+          style={{ width: 40, height: 40, }}
+          source={require("./assets/6381774.png")}
+        />
       </View>
       <View>
-        <Image  style = {{width: 40, height: 40 ,  }} source={require('./assets/6381774.png')}/>           
+        <HorizontalLine />
+
       </View>
-    </View>
 
 
       <View style = {styles.butttonsBack}>
@@ -47,13 +57,13 @@ const styles = StyleSheet.create({
       justifyContent: "center",
       alignItems: "center",
     },
-
-    header: {
-      borderColor: "#BA55D3", 
-      width: 200 , 
+    imagensHead: {
       flexDirection: 'row',
-      justifyContent: 'space-between',
       alignItems: 'center',
+      marginTop: 40,
+      justifyContent: 'space-between',
+      width: '90%', 
+  
     },
     submitButton: {
       marginTop: 20,
@@ -68,6 +78,12 @@ const styles = StyleSheet.create({
       color: "white",
       fontSize: 15,
     },
+    line: {
+      borderBottomColor: "black",
+      borderBottomWidth: 1,
+      marginVertical: 20,
+      marginBottom: 20,
+    },    
 
   
   

@@ -30,7 +30,7 @@ export default function Cadastro(navigation) {
     })
   }
   const conta = () => {
-    navagation.reset({
+    navigation.reset({
       index: 0,
       routes: [{name: "Login"}] 
     })
