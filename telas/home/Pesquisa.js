@@ -10,18 +10,18 @@ export default function Pesquisa() {
       <View style={styles.imagensHead}>
         <Image
           style={{ width: 40, height: 40, borderRadius: 20 }}
-          source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+          source={require("../../assets/Projeto_Mobile/avatar/perfil.png")}
         />
         <TextInput style={styles.input} placeholder="pesquisa" />
         <Image
           style={{ width: 40, height: 40 }}
-          source={require("./assets/6381774.png")}
+          source={require("../../assets/6381774.png")}
         />
       </View>
 
       <TouchableOpacity style={styles.botao}>
         <Image
-          source={require('./assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png')}
+          source={require('../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png')}
           style={{ width: 50, height: 50 }}
         />
       </TouchableOpacity>

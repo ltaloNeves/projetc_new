@@ -44,11 +44,11 @@ export default function Feed() {
       <View style={styles.imagensHead}>
         <Image
           style={{ width: 40, height: 40, borderRadius: 20 }}
-          source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+          source={require('../../assets/Projeto_Mobile/avatar/perfil.png')}
         />
         <Image
           style={{ width: 40, height: 40 }}
-          source={require("./assets/6381774.png")}
+          source={require("../../assets/6381774.png")}
         />
       </View>
 
@@ -91,7 +91,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/margarida.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/margarida.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}> Dr Margarida Ribeiro</Text>
@@ -116,19 +116,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -138,7 +138,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/marta.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/marta.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}} >Marta Matos</Text>
@@ -163,19 +163,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -185,7 +185,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/fernanda.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/fernanda.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}>Fernanda Aguiar</Text>
@@ -209,19 +209,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -231,7 +231,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/perfil_sem_foto.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/perfil_sem_foto.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}>Rita Silva</Text>
@@ -255,19 +255,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -279,7 +279,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/margarida.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/margarida.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}>Ivone Santos </Text>
@@ -303,19 +303,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -326,7 +326,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/perfil.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}>Carla Sampaio </Text>
@@ -350,19 +350,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -372,7 +372,7 @@ export default function Feed() {
               <View style={styles.containerHeader}>
                 <Image
                   style={{ width: 40, height: 40, borderRadius: 20, margin: 5 }}
-                  source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+                  source={require("../../assets/Projeto_Mobile/avatar/perfil.png")}
                 />
                 <View style={styles.textHeader}>
                   <Text style = {{fontWeight: "bold",}}>Maria</Text>
@@ -396,19 +396,19 @@ export default function Feed() {
               >
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/favorite_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/mode_comment_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/bookmarks_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
                 <Image
                   style={{ width: 20, height: 20 }}
-                  source={require("./assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
+                  source={require("../../assets/Projeto_Mobile/icons/ios_share_FILL0_wght300_GRAD-25_opsz48.png")}
                 />
               </View>
             </View>
@@ -438,7 +438,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/1.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/1.png")}
                   />
                 </View>
 
@@ -455,7 +455,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/2.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/2.png")}
                   />
                 </View>
 
@@ -472,7 +472,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/3.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/3.png")}
                   />
                 </View>
 
@@ -489,7 +489,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/4.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/4.png")}
                   />
                 </View>
 
@@ -506,7 +506,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/5.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/5.png")}
                   />
                 </View>
 
@@ -523,7 +523,7 @@ export default function Feed() {
                 >
                   <Image
                     style={{ width: 100, height: 100, borderRadius: 10 }}
-                    source={require("./assets/Projeto_Mobile/dicas/7.png")}
+                    source={require("../../assets/Projeto_Mobile/dicas/7.png")}
                   />
                 </View>
               </ScrollView>
@@ -740,7 +740,7 @@ export default function Feed() {
       <View style={styles.botao}>
         <TouchableOpacity style={{ padding: 10 }}>
           <Image
-            source={require("./assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
+            source={require("../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
             style={{ width: 50, height: 50 }}
           />
         </TouchableOpacity>

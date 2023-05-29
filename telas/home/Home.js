@@ -1,70 +1,121 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
-function Feed() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Feed!</Text>
-    </View>
-  );
-}
-
-function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Profile!</Text>
-    </View>
-  );
-}
-
-function Notifications() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Notifications!</Text>
-    </View>
-  );
-}
+import Feed from './Feed';
+import Pesquisa from './Pesquisa';
+import Profile from './Profile';
+import Vacinas from './Vacinas';
 
 const Tab = createBottomTabNavigator();
 
-export default function Home() {
+const styles = StyleSheet.create({
+  tabBarLabel: {
+    fontSize: 12,
+  },
+  tabBarIconContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 48,
+    width: 48,
+  },
+  tabBarIcon: {
+    height: 24,
+    width: 24,
+  },
+  tabBarIndicator: {
+    position: 'absolute',
+    bottom: 0,
+    height: 5,
+    width: 40,
+    marginTop: 5,
+    backgroundColor: '#800080',
+    borderRadius: 5,
+  },
+});
+
+function MyTabs() {
   return (
     <Tab.Navigator
       initialRouteName="Feed"
       screenOptions={{
-        tabBarActiveTintColor: '#e91e63',
+        tabBarActiveTintColor: '#800080',
+        tabBarStyle: styles.tabBar,
+        tabBarLabelStyle: styles.tabBarLabel,
+        tabBarShowLabel: false,
       }}
     >
       <Tab.Screen
         name="Feed"
         component={Feed}
         options={{
+          headerShown: false,
           tabBarLabel: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
+          tabBarIcon: ({ color, size, focused }) => (
+            <View style={styles.tabBarIconContainer}>
+              <Image
+              style={{ width: size, height: size }}
+              source={require('../../assets/Projeto_Mobile/icons/home_FILL0_wght300_GRAD-25_opsz48.png')}
+              />
+              {focused && <View style = {styles.tabBarIndicator} /> }
+
+            </View>
+
           ),
         }}
       />
       <Tab.Screen
-        name="Notifications"
-        component={Notifications}
+        name="Pesquisa"
+        component={Pesquisa}
         options={{
-          tabBarLabel: 'Updates',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+          headerShown: false,
+          tabBarIcon: ({ color, size, focused }) => (
+            <View style={styles.tabBarIconContainer}>
+              <Image
+              style={{ width: size, height: size }}
+              source={require('../../assets/Projeto_Mobile/icons/search.png')}
+              />
+              {focused && <View style = {styles.tabBarIndicator} /> }
+
+            </View>
+
           ),
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Vacinas"
+        component={Vacinas}
+        options={{
+          headerShown: false,
+          tabBarIcon: ({ color, size, focused }) => (
+            <View style={styles.tabBarIconContainer}>
+              <Image
+              style={{ width: size, height: size }}
+              source={require('../../assets/Projeto_Mobile/icons/2947753.png')}
+              />
+              {focused && <View style = {styles.tabBarIndicator} /> }
+
+            </View>
+
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Configurações"
         component={Profile}
         options={{
-          tabBarLabel: 'Profile',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+          headerShown: false,
+          tabBarIcon: ({ color, size, focused }) => (
+            <View style={styles.tabBarIconContainer}>
+              <Image
+              style={{ width: size, height: size }}
+              source={require('../../assets/Projeto_Mobile/icons/settings_FILL0_wght300_GRAD-25_opsz48.png')}
+              />
+              {focused && <View style = {styles.tabBarIndicator} /> }
+
+            </View>
+
           ),
         }}
       />
@@ -72,4 +123,10 @@ export default function Home() {
   );
 }
 
-
+export default function Home( { navigation }) {
+  return (
+    <NavigationContainer>
+      <MyTabs />
+    </NavigationContainer>
+  );
+}

@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function Login (navigation) {
+export default function Login ({ navigation }) {
   const enter = () => {
     navigation.reset({
       index: 0,
@@ -18,15 +18,12 @@ export default function Login (navigation) {
   }
 
   const cadastroNew = () => {
-    navigation.reset({
-      index: 0,
-      routes: [{name: "Cadastro"}]
-    })
+    navigation.navigate("Cadastro")
   }
   return (
     <View style={styles.container}>
       <View sytle = {styles.imagens}>
-        <Image  style = {{width: 100, height: 100 , marginTop : 100, }} source={require('./assets/6381774.png')}/>
+        <Image  style = {{width: 100, height: 100 , marginTop : 100, }} source={require('../../assets/6381774.png')}/> 
       </View> 
 
       <View style = {styles.header}>  
@@ -49,7 +46,7 @@ export default function Login (navigation) {
       </View>
     </View>
   );
-}
+}  
 
 const styles = StyleSheet.create({
   container: {

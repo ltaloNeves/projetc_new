@@ -43,7 +43,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -56,7 +56,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -69,7 +69,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -82,7 +82,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -95,7 +95,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -108,7 +108,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -121,7 +121,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -134,7 +134,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -148,7 +148,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -161,7 +161,7 @@ export default function Vacinas() {
             <View>
               <Image
                 style={{ width: 40, height: 40, borderRadius: 20 }}
-                source={require("./assets/Projeto_Mobile/icons/2947753.png")}
+                source={require("../../assets/Projeto_Mobile/icons/2947753.png")}
               />
             </View>
             <View style={styles.text}>
@@ -177,7 +177,7 @@ export default function Vacinas() {
       <View style={styles.botao}>
         <TouchableOpacity style={{ padding: 10 }}>
           <Image
-            source={require("./assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
+            source={require("../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
             style={{ width: 50, height: 50 }}
           />
         </TouchableOpacity>

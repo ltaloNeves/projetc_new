@@ -15,11 +15,11 @@ export default function Profile() {
       <View style={styles.imagensHead}>
         <Image
           style={{ width: 40, height: 40, borderRadius: 20 }}
-          source={require("./assets/Projeto_Mobile/avatar/perfil.png")}
+          source={require("../../assets/Projeto_Mobile/avatar/perfil.png")}
         />
         <Image
           style={{ width: 40, height: 40, }}
-          source={require("./assets/6381774.png")}
+          source={require("../../assets/6381774.png")}
         />
       </View>
       <View>

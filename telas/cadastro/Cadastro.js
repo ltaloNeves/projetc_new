@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function Cadastro(navigation) {
+export default function Cadastro({ navigation }) {
   const [isLeigoActive, setIsLeigoActive] = useState(true);
   const [isProfissionalActive, setIsProfissionalActive] = useState(false);
 
