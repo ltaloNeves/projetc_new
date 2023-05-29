@@ -125,7 +125,7 @@ function MyTabs() {
 
 export default function Home( { navigation }) {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
       <MyTabs />
     </NavigationContainer>
   );

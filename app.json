@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Mobile_App_Real",
+    "name": "Lactatio",
     "slug": "Mobile_App_Real",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/visual/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/visual/newSplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.italoneves.lactatio"
     },
     "android": {
+      "package": "com.italoneves.lactatio",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "0b4d5b96-e7f6-405c-9203-e1aa6b537d01"
+      }
     }
   }
 }

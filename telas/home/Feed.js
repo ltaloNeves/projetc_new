@@ -554,7 +554,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}> 
@@ -586,7 +586,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}>
@@ -619,7 +619,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}>
@@ -652,7 +652,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}>
@@ -685,7 +685,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}> 
@@ -716,7 +716,7 @@ export default function Feed() {
                   >
                     <Image
                       style={{ width: 100, height: 100, borderRadius: 10 }}
-                      source={require("./assets/Projeto_Mobile/infos/news1.png")}
+                      source={require("../../assets/Projeto_Mobile/infos/news1.png")}
                     />
                   </View>
                   <View style={{ width: 200,}}>

@@ -77,7 +77,7 @@ export default function Cadastro({ navigation }) {
             secureTextEntry
             placeholder="confirmar senha"
           />
-          <TouchableOpacity style={styles.submitButton} onPress={() => {}}>
+          <TouchableOpacity style={styles.submitButton} onPress={() => enter ()}>
             <Text style={styles.submitButtonText}>CADASTRAR</Text>
           </TouchableOpacity>
         </View>
