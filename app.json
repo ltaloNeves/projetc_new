@@ -21,7 +21,7 @@
     "android": {
       "package": "com.italoneves.lactatio",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/visual/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
