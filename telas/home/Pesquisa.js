@@ -3,8 +3,11 @@ import { Text, View, StyleSheet, Image, TextInput, TouchableOpacity } from 'reac
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
-export default function Pesquisa() {
+import 'react-native-gesture-handler';
+export default function Pesquisa({navigation}) {
+  const tweet = () => {
+    navigation.navigate("Login")
+  }
   return (
     <View style={{ flex: 1, alignItems: "center", }}>
       <View style={styles.imagensHead}>
@@ -19,12 +22,6 @@ export default function Pesquisa() {
         />
       </View>
 
-      <TouchableOpacity style={styles.botao}>
-        <Image
-          source={require('../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png')}
-          style={{ width: 50, height: 50 }}
-        />
-      </TouchableOpacity>
     </View>
   );
 }

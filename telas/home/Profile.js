@@ -3,6 +3,7 @@ import { Text, View, StyleSheet, Image,TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import 'react-native-gesture-handler';
 
 
 const HorizontalLine = () => {

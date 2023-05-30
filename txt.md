@@ -23,7 +23,11 @@ home_FILL0_wght300_GRAD-25_opsz48.png
 
 search_FILL0_wght400_GRAD0_opsz48 (1).png
 
+movie_FILL0_wght300_GRAD-25_opsz48.png
 
+image_FILL0_wght300_GRAD-25_opsz48.png
+
+description_FILL0_wght300_GRAD-25_opsz48.png
 
 
 import * as React from 'react';

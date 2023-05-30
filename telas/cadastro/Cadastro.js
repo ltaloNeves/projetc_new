@@ -8,6 +8,7 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
+import 'react-native-gesture-handler';
 
 export default function Cadastro({ navigation }) {
   const [isLeigoActive, setIsLeigoActive] = useState(true);

@@ -5,10 +5,9 @@ import {
 import Login from "./telas/login/Login";
 import Cadastro from "./telas/cadastro/Cadastro.js";
 import Home from "./telas/home/Home.js";
-import Send from "./telas/enviar/Send.js";
 const Stack = createStackNavigator();
 import 'react-native-gesture-handler';
-
+import Send from './telas/enviar/Send'
 
 
 function MyStack() {

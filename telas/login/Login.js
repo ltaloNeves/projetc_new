@@ -9,6 +9,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+import 'react-native-gesture-handler';
+
+
 export default function Login ({ navigation }) {
   const enter = () => {
     navigation.reset({

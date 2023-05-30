@@ -11,12 +11,18 @@ import {
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import 'react-native-gesture-handler';
+
 
 const HorizontalLine = () => {
   return <View style={styles.line} />;
 };
 
-export default function Vacinas() {
+export default function Vacinas({navigation}) { 
+
+  const tweet = () => {
+    navigation.navigate("Send")
+  }
   return (
     <View style={{ justifyContent: "center", alignItems: "center" }}>
       <View style={styles.imagensHead}>
@@ -174,14 +180,6 @@ export default function Vacinas() {
         </View>
       </ScrollView>
 
-      <View style={styles.botao}>
-        <TouchableOpacity style={{ padding: 10 }}>
-          <Image
-            source={require("../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
-            style={{ width: 50, height: 50 }}
-          />
-        </TouchableOpacity>
-      </View>
     </View>
   );
 }

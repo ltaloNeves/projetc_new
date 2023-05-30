@@ -8,6 +8,7 @@ import {
   ScrollView,
   Linking,
 } from "react-native";
+import 'react-native-gesture-handler';
 
 const HorizontalLine = () => {
   return <View style={styles.line} />;
@@ -737,14 +738,6 @@ export default function Feed() {
         )}
       </ScrollView>
 
-      <View style={styles.botao}>
-        <TouchableOpacity style={{ padding: 10 }}>
-          <Image
-            source={require("../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
-            style={{ width: 50, height: 50 }}
-          />
-        </TouchableOpacity>
-      </View>
     </View>
   );
 }

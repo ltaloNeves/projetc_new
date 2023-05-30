@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, StyleSheet, Image } from 'react-native';
+import { View, StyleSheet, Image,TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -7,6 +7,7 @@ import Feed from './Feed';
 import Pesquisa from './Pesquisa';
 import Profile from './Profile';
 import Vacinas from './Vacinas';
+import 'react-native-gesture-handler';
 
 const Tab = createBottomTabNavigator();
 
@@ -33,7 +34,45 @@ const styles = StyleSheet.create({
     backgroundColor: '#800080',
     borderRadius: 5,
   },
+  botao: {
+    backgroundColor: '#BA55D3',
+    borderRadius: 30,
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 30,
+    right: 20,
+  },
+  botao: {
+    backgroundColor: '#BA55D3',
+    borderRadius: 30,
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 70,
+    right: 20,
+  },
 });
+
+
+function Menu({navigation}){
+  
+  return (
+    <View style={styles.botao}>
+    <TouchableOpacity style={{ padding: 10 }}>
+      <Image
+        source={require("../../assets/Projeto_Mobile/icons/add_circle_FILL0_wght300_GRAD-25_opsz48.png")}
+        style={{ width: 50, height: 50 }}
+      />
+    </TouchableOpacity>
+  </View>
+  )
+
+}
 
 function MyTabs() {
   return (
@@ -127,6 +166,8 @@ export default function Home( { navigation }) {
   return (
     <NavigationContainer independent={true}>
       <MyTabs />
+      <Menu />
     </NavigationContainer>
+
   );
 }
